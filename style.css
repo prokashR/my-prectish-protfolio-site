@@ -1,7 +1,6 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-color: #fff;
     background-color: #000000;
 }
 header{
@@ -23,9 +22,12 @@ header{
     padding: 1px 15px;
     font-weight: 400;
 }
+.devo a:hover{
+    color: aqua;
+}
 .h1prof{
     font-size:50px;
-    color: white;
+    color: white;    
 }
 .h3prof{
     color: #fff;
@@ -63,6 +65,7 @@ header{
 .flexbale{
     display: flex;
     margin-top:30px;
+    margin-bottom: 200px;
 }
 .hifa-width{
     width: 50%;
@@ -70,4 +73,70 @@ header{
 }
 .hifa-width img{
     width:90%;
+}
+/*second site footer*/
+.github{
+    display: flex;
+    background-color: #fff;
+}
+.h1pro{
+    font-size:50px;
+    color:#000;
+    font-weight:bold;
+}
+.gito{ 
+    width: 50%;
+    padding-left: 8%;
+    margin-top:40px;
+}
+.h2pro{
+    color: #000;
+    font-size: 25px;
+}
+.p1pro{
+    font-weight:400;
+    font-size:19px;
+    text-align: justify;
+    margin-right: 30px;
+}
+/*about pro footer*/
+.aboutpro{
+  background-color: #6047EC;
+}
+.h1prot{
+    font-size:40px;
+    text-align: center;
+    color: #fff;
+}
+.p1prot{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-left: 27%;
+    margin-right: 29%;
+}
+.bogo{
+    float: left;
+    margin-bottom: 90px;
+}
+.bombole{
+    display: inline-block;
+    margin-left:13%;
+}
+.heroman{
+    font-size:18px;
+    color: #fff;
+    font-weight: 400;
+    margin-left:13%;
+    margin-top: -15px;
+}
+.phero{
+    color: #fff;
+    margin-left:13%;
+    font-size:12px;
+    margin-top: -10px;
+}
+.footerend{
+    text-align:center;
+    color: #d4d4d4;
 }
